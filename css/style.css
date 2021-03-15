@@ -9,6 +9,9 @@
 .flex_display{
   display: flex;
 }
+.none_display{
+  display: none;
+}
 /* ------btn------ */
 #btn_sign{
   color: black;
@@ -30,7 +33,7 @@
 /* --------------------/MIX----------------------- */
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 /* -----------------------HEADER------------------------- */
 header{
@@ -81,6 +84,21 @@ header{
 }
 .nav_info .nav_left li a:hover{
   color: black;
+}
+.dropdown_principale {
+  position: relative;
+}
+.nav_left .dropdown{
+  position: absolute;
+  top: 180%;
+  left: 0;
+  border-radius: 10px;
+  padding: 20px 80px 20px 10px;
+  box-shadow: 1px 2px 5px 2px #ebebeb;
+}
+.nav_left .dropdown li{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* /nav di sinistra della nav info */
 /* nav di destra della nav info */
