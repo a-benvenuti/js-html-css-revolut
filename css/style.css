@@ -64,11 +64,26 @@ header{
 }
 /* ------/NAV SCELTA--------- */
 /* ----------------NAV INFO------------------- */
-
-/* nav di destra della nav info */
-.nav_right ul{
-  justify-content: center;
+.nav_info{
+  align-content: center;
 }
+/* nav di sinistra della nav info */
+.nav_info .nav_left{
+  align-self: center;
+}
+.nav_left li{
+  list-style-type: none;
+  margin: 0px 20px;
+}
+.nav_info .nav_left li a{
+  text-decoration: none;
+  color: #8b8b8b;
+}
+.nav_info .nav_left li a:hover{
+  color: black;
+}
+/* /nav di sinistra della nav info */
+/* nav di destra della nav info */
 .nav_right li{
   list-style-type: none;
   margin-left: 20px;
