@@ -5,7 +5,82 @@
   box-sizing: border-box;
 }
 /* ----/RESET---- */
+/* --------------------MIX----------------------- */
+.flex_display{
+  display: flex;
+}
+/* ------btn------ */
+#btn_sign{
+  color: black;
+  background-color: #ebebeb;
+  opacity: 0.8;
+}
+#btn_get{
+  color: white;
+  background-color: black;
+  opacity: 1;
+}
+#btn_sign:hover{
+  opacity: 1;
+}
+#btn_get:hover{
+  opacity: 0.8;
+}
+/* ------/btn------ */
+/* --------------------/MIX----------------------- */
 body{
   font-family: 'Roboto', sans-serif;
   background-color: lightgrey;
 }
+/* -----------------------HEADER------------------------- */
+header{
+  height: 120px;
+  background-color: white;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* ------NAV SCELTA--------- */
+.nav_scelta{
+  align-content: center;
+}
+.nav_scelta img{
+  height: 50px;
+  width: auto;
+  margin-right: 40px;
+}
+.nav_scelta li{
+  list-style-type: none;
+  margin-right: 20px;
+  align-self: center;
+}
+.nav_scelta li a{
+  text-decoration: none;
+  color: #8b8b8b;
+}
+.nav_scelta li a:hover{
+  color: black;
+}
+/* ------/NAV SCELTA--------- */
+/* ----------------NAV INFO------------------- */
+
+/* nav di destra della nav info */
+.nav_right ul{
+  justify-content: center;
+}
+.nav_right li{
+  list-style-type: none;
+  margin-left: 20px;
+}
+.nav_right li button{
+  border: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* /nav di destra della nav info */
+/* ----------------/NAV INFO------------------- */
+/* -----------------------HEADER------------------------- */
